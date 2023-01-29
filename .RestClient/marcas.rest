@@ -1,0 +1,26 @@
+@base_url = http://localhost:3333
+
+#Mais Modelos
+GET {{base_url}}/maisModelos HTTP/1.1
+Content-Type: application/json
+###
+
+#Menos Modelos
+GET {{base_url}}/menosModelos HTTP/1.1
+Content-Type: application/json
+###
+
+#Mais Modelos com parametro
+GET {{base_url}}/listaMaisModelos/10 HTTP/1.1
+Content-Type: application/json
+###
+
+#Menos Modelos com parametro
+GET {{base_url}}/listaMenosModelos/10 HTTP/1.1
+Content-Type: application/json
+###
+
+#Modelos
+GET {{base_url}}/listaModelos/hummer HTTP/1.1
+Content-Type: application/json
+###
